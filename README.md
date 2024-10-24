@@ -1,20 +1,15 @@
-# Minimax Strategy
+# Minimax Strategy Evaluator
+This project implements a minimax algorithm to evaluate business strategies. The algorithm identifies the strategy with the best worst-case outcome.
 
-This Python script implements a minimax algorithm to evaluate business strategies under uncertainty. It identifies the strategy with the best worst-case outcome to help businesses make informed decisions.
+## Business Strategies
+- The strategies are represented as a dictionary where each key is a strategy name and the value is a list of potential outcomes:
+- Each outcome represents a possible result of choosing that strategy.
 
 ## Features
-- Evaluates multiple business strategies based on potential outcomes
-- Uses the minimax approach to determine the strategy with the maximum minimum payoff
+- Evaluation of multiple business strategies
+- Minimax approach to determine the optimal strategy
+- Outputs the best strategy along with its worst-case outcome
 
-## How to Use
-1. **Download and Run the script**  
-   `python minimaxstrategy.py`
-
-2. **View the output**  
-   The script will print the best strategy and its worst-case outcome.
-
-## Example Output
-`The best strategy is: Strategy C with a worst-case outcome of: 0`
-
-## Requirements
-- Python 3.x
+## Usage
+- Clone the repository
+- Run the minimax_strategy_evaluation.py file
