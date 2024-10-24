@@ -12,4 +12,4 @@ This project implements a minimax algorithm to evaluate business strategies. The
 
 ## Usage
 - Clone the repository
-- Run the minimax_strategy_evaluation.py file
+- Run the minimaxstrategy.py file
